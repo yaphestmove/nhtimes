@@ -1,0 +1,19 @@
+{
+  "name": "nhtimes.top",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "deploy": "npx deploy-cli-service deploy --mode dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "maaixin",
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.40"
+  }
+}
